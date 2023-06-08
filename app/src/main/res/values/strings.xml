@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MyApplication</string>
+    <string name="text_title_post">Endereço</string>
+    <string name="text_profile_post">Perfil</string>
+    <string name="text_key_post">Chaves</string>
+    <string name="text_button_register_post">Postar</string>
+
+    <string name="text_title_post_text1">Post:</string>
+    <string name="text_title_post_text2">Email:</string>
+</resources>

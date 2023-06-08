@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/edge"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardElevation="8dp"
+    app:cardCornerRadius="8dp"
+    android:layout_margin="16dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginVertical="16dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Usuário:"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/textViewUser3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:text=""
+                app:layout_constraintStart_toEndOf="@+id/textViewPost"
+                app:layout_constraintTop_toTopOf="@+id/textViewPost" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Post:"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:text=""
+                app:layout_constraintStart_toEndOf="@+id/textViewPost"
+                app:layout_constraintTop_toTopOf="@+id/textViewPost" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Data:"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:text="data postagem"
+                app:layout_constraintStart_toEndOf="@+id/textViewPost"
+                app:layout_constraintTop_toTopOf="@+id/textViewPost" />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

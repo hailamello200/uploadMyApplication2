@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "1009708617653",
+    "project_id": "projetofirebase-bad21",
+    "storage_bucket": "projetofirebase-bad21.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1009708617653:android:a0aa1bba19de43e1ea53fc",
+        "android_client_info": {
+          "package_name": "com.haila.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1009708617653-2mhktrglsugmtnrh0j81lti0q9lgsb1a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAERGb2Avpi3hEutB5TEA0vDDZsM970vtU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1009708617653-2mhktrglsugmtnrh0j81lti0q9lgsb1a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1009708617653:android:caec422236a809b3ea53fc",
+        "android_client_info": {
+          "package_name": "com.haila.myapplication2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1009708617653-2mhktrglsugmtnrh0j81lti0q9lgsb1a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAERGb2Avpi3hEutB5TEA0vDDZsM970vtU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1009708617653-2mhktrglsugmtnrh0j81lti0q9lgsb1a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
